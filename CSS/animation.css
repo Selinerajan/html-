@@ -1,0 +1,25 @@
+.box{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:relative;
+    background-color:lightcoral ;
+    animation-name:circle;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:10;
+}
+@keyframes circle{
+    0%{
+        background-color:darkmagenta;
+        left:0px;
+        top:0px;
+    }
+    100%{
+        background-color:cornflowerblue;
+        width:50px;
+        height:50px;
+        left:600px;
+        top:600px;
+    }
+}

@@ -1,0 +1,21 @@
+.para1{
+    background-color: aquamarine;
+}
+.para2{
+    background-color: darksalmon;
+}
+.para3{
+    background-color: cornsilk;
+}
+@media (min-width:801px){
+    .container p{
+        width:30%;
+        float:left;
+        padding:10px;
+    }
+}
+@media print{
+    body{
+        background-color: none;
+    }
+}

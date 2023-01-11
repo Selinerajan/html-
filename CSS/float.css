@@ -1,0 +1,53 @@
+.outerbox{
+    background-color: brown;
+    min-height:400px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.box{
+    width:180px;
+    height:180px;
+    background-color: chartreuse;
+    border:2px solid white;
+}
+.box1{
+    flex-shrink:1;
+}
+.box2{
+    flex-shrink:2;
+    flex-grow:2;
+    flex-basis:0;
+}
+.box3{
+    flex-grow:1;
+    flex-basis:0;
+}
+
+.container{
+    display:flex;
+}
+p{
+    padding:10px;
+}
+.para1{
+    background-color: aquamarine;
+    flex:1;
+    order:2;
+}
+.para2{
+    background-color: darksalmon;
+    flex:1;
+    order:3;
+}
+.para3{
+    background-color: blueviolet;
+    flex:1;
+    order:4;
+}
+.para4{
+    background-color: red;
+    flex:2;
+    order:1;
+
+}
